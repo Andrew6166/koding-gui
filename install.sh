@@ -1,5 +1,3 @@
-#!/usr/bin/bash
-
 sudo apt-get install python
 mv kodinggui.py kodinggui
 sudo cp kodinggui /usr/bin/
