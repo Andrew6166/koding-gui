@@ -51,11 +51,11 @@ while x is not "q" or x is not "Q":
         a = int(raw_input("Choose an option. "))
         
         if a == 1:
-            os.system("sudo service apache start")
+            os.system("sudo service apache2 start")
         elif a == 2:
-            os.system("sudo service apache stop")
+            os.system("sudo service apache2 stop")
         elif a == 3:
-            os.system("sudo service apache restart")
+            os.system("sudo service apache2 restart")
     elif int(x) == 2:
         os.system("sudo apt-get install proftpd")
         os.system("sudo passwd " + str(getpass.getuser()))
