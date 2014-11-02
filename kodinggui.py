@@ -33,10 +33,20 @@ def mainmenu():
     
     """
 
+def services():
+	print """\
+				
+	(1) Start
+	(2) Stop
+	(3) Restart
+	(4) Main menu
+	"""
+
 x = 0
 
 while x is not "q" or x is not "Q":
 	try:
+		redraw()
 		mainmenu()
 		x = raw_input("Choose an Option. ")
 		
@@ -51,14 +61,7 @@ while x is not "q" or x is not "Q":
 			"""
 			b = raw_input("Choose an Option. ")
 			if int(b) == 1:
-				print """\
-				
-			(1) Start
-			(2) Stop
-			(3) Restart
-			(4) Main menu
-				
-				"""
+				services()
 				
 				a = int(raw_input("Choose an option. "))
 				
@@ -69,14 +72,7 @@ while x is not "q" or x is not "Q":
 				elif a == 3:
 					os.system("sudo service apache2 restart")
 			elif int(b) == 2:
-				print """\
-				
-			(1) Start
-			(2) Stop
-			(3) Restart
-			(4) Main menu
-				
-				"""
+				services()
 				
 				a = int(raw_input("Choose an option. "))
 				
@@ -87,14 +83,7 @@ while x is not "q" or x is not "Q":
 				elif a == 3:
 					os.system("sudo service proftpd restart")
 			elif int(b) == 3:
-				print """\
-				
-			(1) Start
-			(2) Stop
-			(3) Restart
-			(4) Main menu
-				
-				"""
+				services()
 				
 				a = int(raw_input("Choose an option. "))
 				
