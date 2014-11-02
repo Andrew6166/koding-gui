@@ -53,10 +53,10 @@ while x is not "q" or x is not "Q":
 			if int(b) == 1:
 				print """\
 				
-				(1) Start
-				(2) Stop
-				(3) Restart
-				(4) Main menu
+			(1) Start
+			(2) Stop
+			(3) Restart
+			(4) Main menu
 				
 				"""
 				
@@ -71,10 +71,10 @@ while x is not "q" or x is not "Q":
 			elif int(b) == 2:
 				print """\
 				
-				(1) Start
-				(2) Stop
-				(3) Restart
-				(4) Main menu
+			(1) Start
+			(2) Stop
+			(3) Restart
+			(4) Main menu
 				
 				"""
 				
@@ -89,10 +89,10 @@ while x is not "q" or x is not "Q":
 			elif int(b) == 3:
 				print """\
 				
-				(1) Start
-				(2) Stop
-				(3) Restart
-				(4) Main menu
+			(1) Start
+			(2) Stop
+			(3) Restart
+			(4) Main menu
 				
 				"""
 				
